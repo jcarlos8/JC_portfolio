@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*resetting CSS stylesheet*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*adding font and background image to the webapp*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 5px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 5fr 90fr 5fr;
+    background-image: url("/JC_Portfolio/Assets/Images/dillon-shook-mY3_bvR74fI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+/*styling header and a tags*/
+
+a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+a:hover {
+    color: black;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+header a {
+    margin: 0px 10px;
+}
+
+/*using grid and flexbox to manage about-me and portfolio sections*/
+
+main {
+    display: grid;
+    grid-template-columns: 30fr 70fr;
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/*adding images to the portfolio*/
+
+#guide {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10%;
+    background-image: url("/JC_Portfolio/Assets/Images/prework.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#webapp {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10%;
+    background-image: url("/JC_Portfolio/Assets/Images/horiseon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin-left: 5%;
+}
