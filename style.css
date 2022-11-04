@@ -21,7 +21,7 @@ body {
     display: grid;
     gap: 20px;
     grid-template-rows: 5fr 90fr 5fr;
-    background-image: url("/Assets/Images/dillon-shook-mY3_bvR74fI-unsplash.jpg");
+    background-image: url("./Assets/Images/dillon-shook-mY3_bvR74fI-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
