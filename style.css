@@ -94,6 +94,11 @@ main {
     background-size: cover;
 }
 
+#webapp:hover, #guide:hover {
+    transition: 0.8s;
+    scale: 1.1;
+}
+
 
 footer {
     border-top: 2px solid black;
