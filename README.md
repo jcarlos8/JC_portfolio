@@ -4,7 +4,7 @@ This is my personal portfolio where I introduce myself to potential employers/cl
 
 ## Installation
 
-This website can be opened with a internet browser using the link 
+This website can be opened with a internet browser using the link https://jcarlos8.github.io/Portfolio/
 
 ## License
 
